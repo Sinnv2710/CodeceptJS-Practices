@@ -1,0 +1,42 @@
+{
+  "name": "codeceptjs-practices",
+  "version": "1.0.0",
+  "description": "Unity framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run ",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinnv2710/CodeceptJS-Practices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sinnv2710/CodeceptJS-Practices/issues"
+  },
+  "homepage": "https://github.com/Sinnv2710/CodeceptJS-Practices#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "codeceptjs": "^3.3.7",
+    "typescript": "^4.9.5",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-codeceptjs": "^1.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "expect": "^27.2.4",
+    "prettier": "^2.4.1",
+    "prettier-eslint": "^13.0.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}

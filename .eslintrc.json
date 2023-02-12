@@ -1,0 +1,36 @@
+{
+ "root": true,
+ "env": {
+  "node": true,
+  "es6": true,
+  "codeceptjs/codeceptjs": true
+ },
+ "plugins": [
+  "@typescript-eslint",
+  "codeceptjs"
+ ],
+ "extends": [
+  "prettier",
+  "plugin:codeceptjs/recommended"
+ ],
+ "parserOptions": {
+  "project": [
+   "tsconfig.json"
+  ]
+ },
+ "rules": {
+  "no-console": [
+   "error",
+   {
+    "allow": [
+     "error",
+     "warn"
+    ]
+   }
+  ],
+  "no-multi-spaces": "warn",
+  "prefer-arrow-callback": "warn",
+  "semi": "warn",
+  "indent": "error"
+ }
+}
